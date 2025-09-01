@@ -45,7 +45,7 @@ ARORA leverages the power of LLMs to automatically create and analyze entire cod
 ## Installation
 
 > [!IMPORTANT]
-> Vulnhuntr strictly requires Python 3.10 because of a number of bugs in Jedi which it uses to parse Python code. It will not work reliably if installed with any other versions of Python.
+> ARORAstrictly requires Python 3.10 because of a number of bugs in Jedi which it uses to parse Python code. It will not work reliably if installed with any other versions of Python.
 
 We recommend using [pipx](https://github.com/pypa/pipx) or Docker to easily install and run Vulnhuntr.
 
@@ -62,7 +62,7 @@ pipx install git+https://github.com/protectai/vulnhuntr.git --python python3.10
 Alternatively you can install directly from source using poetry:
 ```bash
 git clone https://github.com/protectai/vulnhuntr
-cd vulnhuntr && poetry install
+cd ARORA. && poetry install
 ```
 
 ## Usage
